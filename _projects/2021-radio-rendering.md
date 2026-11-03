@@ -1,25 +1,34 @@
----
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
-image: /assets/images/radio-machine-cad.jpg
----
+title: "HertzTrap - MAE 2250 Engineering Design"
+description: "Design and prototyping of a spotted lanternfly prevention device"
+technologies:
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+Autodesk Fusion 360
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+3D Printing
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+Arduino
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Electronics
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+HertzTrap: Spotted Lanternfly Prevention Device
 
-I was inspired by this old radio when I made this rendering:
+Project Overview
 
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
+For MAE 2250, my team, Newton's Nightmares, designed and developed HertzTrap, a prototype intended to help protect vineyards from spotted lanternflies.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+The device combines a 60 Hz acoustic attraction system with an electrified mesh enclosure to attract and eliminate spotted lanternflies before they reach grapevines.
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+Design and Development
+
+Our team developed an enclosure using Autodesk Fusion 360 and fabricated the prototype through 3D printing. The design incorporates two conductive mesh layers connected to an electronic zapper circuit.
+
+We also integrated an Arduino-controlled audio system to generate a 60 Hz signal through a speaker and amplifier.
+
+Testing
+
+We assembled and tested the prototype to evaluate its electrical and acoustic systems. Testing included verifying the electrical discharge between the mesh layers and generating the intended attraction frequency.
+
+Project Documentation
+
+View the MAE 2250 project repository
